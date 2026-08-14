@@ -1,0 +1,20 @@
+{
+  "name": "香港巴士到站時間",
+  "short_name": "巴士到站",
+  "description": "快速查看香港巴士即時到站時間、搜尋路線及管理收藏。",
+  "lang": "zh-Hant-HK",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3f6fb",
+  "theme_color": "#182a68",
+  "icons": [
+    {
+      "src": "/icons/bus-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

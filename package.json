@@ -1,0 +1,30 @@
+{
+  "name": "hong-kong-bus-eta",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty false",
+    "test": "vitest run",
+    "data:citybus": "node scripts/build-citybus-index.mjs",
+    "data:fares": "node scripts/build-bus-fare-index.mjs"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
